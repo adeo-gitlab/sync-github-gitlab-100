@@ -1,0 +1,5 @@
+image: alpine:latest
+
+hello-test:
+    script: 
+        - print "Job executed : $(date +'%m/%d/%Y %H:%M')"
